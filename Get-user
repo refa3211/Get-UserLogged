@@ -1,5 +1,5 @@
 # $headers = ("PC", "USERNAME", "SESSIONNAME", "ID", "STATE", "IDLE TIME", "Date", "TIME")
-$OU
+$OU = "OU=Users,OU=Company_1OU,DC=Company_1,DC=internal"
 
 $pclist = Get-ADComputer -Filter {Enabled -eq 'True'} -SearchBase $OU
 
