@@ -7,5 +7,5 @@ Powsershell script that log to csv file all users that logged in to PC, Servers 
 git clone https://github.com/refa3211/Get-UserLogged.git
 ```
 ```PS1
-Get-UserLogged.PS1
+.\Get-usersLogged.ps1
 ```
